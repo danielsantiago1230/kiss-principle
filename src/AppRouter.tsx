@@ -1,5 +1,5 @@
-import React, {CSSProperties} from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { CSSProperties } from 'react';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 // pages
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
@@ -31,7 +31,7 @@ const styles: { [key: string]: CSSProperties } = {
         display: 'flex',
         flexDirection: 'column',
         height: '100vh',
-    }
+    },
 };
 
 export default AppRouter;
