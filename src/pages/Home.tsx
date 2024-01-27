@@ -5,7 +5,8 @@ const Home = () => {
         <div style={styles.container}>
             <div style={styles.circle}>
                 <h1 style={styles.heading}>Kiss Principle</h1>
-                <p style={styles.paragraph}>This is a React Web app, a reflection of my personal brand</p>
+                <h2 style={styles.subtile}>( Keep it simple, stupid )</h2>
+                <p style={styles.paragraph}> Welcome to my React Web app, a reflection of my personal brand</p>
             </div>
         </div>
     );
@@ -25,12 +26,18 @@ const styles: { [key: string]: CSSProperties } = {
         fontSize: "2.8rem",
         marginBottom: "0"
     },
-    paragraph: {
-        marginTop: "1rem",
+    subtile: {
         textAlign: "center",
         fontWeight: 100,
-        fontSize: "1.25rem",
-        margin: "1.25rem",
+        fontSize: "1rem",
+        marginTop: "0"
+    },
+    paragraph: {
+        marginTop: "2rem",
+        textAlign: "center",
+        fontWeight: 100,
+        fontSize: "1.0rem",
+        margin: "2rem",
     }
 }
 
