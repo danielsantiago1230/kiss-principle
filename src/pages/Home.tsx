@@ -17,7 +17,7 @@ const styles: { [key: string]: CSSProperties } = {
         justifyContent: "center",
         alignItems: "center",
         height: "100vh",
-        // color: "#2F4159",
+        color: '#2F4159'
     },
     heading: {
         textAlign: "center",
