@@ -15,10 +15,10 @@ const MyJourney = () => {
         try {
             setLoading(true);
             const db = getDatabase(app);
-            const dbRef = ref(db, '/pages');
+            const dbRef = ref(db, '/pages/MyJourney');
             onValue(dbRef, (snapshot) => {
                 const data = snapshot.val();
-                setDataMyJourney(data?.MyJourney || null);
+                setDataMyJourney(data || null);
                 setLoading(false);
             });
         } catch {
