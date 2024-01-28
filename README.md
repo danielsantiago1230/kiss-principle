@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Welcome to the Kiss Principle Web App – a personal space where I, Daniel Santiago Quintero Ariza, talk not just about my professional journey but also share my thoughts and experiences. This project deviates from the traditional formal portfolio to offer a more intimate view into who I am beyond my resume and LinkedIn profile.
+Welcome to the Kiss Principle Web App – a personal space where I, Santiago, talk about my journey and also, share my thoughts and experiences. This project deviates from the traditional formal portfolio to offer a more intimate view into who I am beyond my resume and LinkedIn profile.
 
 ## Key Features
 
