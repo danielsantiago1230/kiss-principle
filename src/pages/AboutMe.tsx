@@ -15,11 +15,11 @@ const AboutMe = () => {
         try {
             setLoading(true)
             const db = getDatabase(app);
-            const dbRef = ref(db);
+            const dbRef = ref(db, '/pages');
             onValue(dbRef, (snapshot) => {
                 const data = snapshot.val();
-                // console.log(data?.pages?.AboutMe, 'data');
-                setDataAboutMe(data?.pages?.AboutMe);
+                // console.log(data?.AboutMe, 'data');
+                setDataAboutMe(data?.AboutMe || null);
             });
             setLoading(false)
         } catch {
