@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kiss-principle/static/css/main.9cce0c7f.css",
-    "main.js": "/kiss-principle/static/js/main.2e34c076.js",
+    "main.css": "/kiss-principle/static/css/main.e52ac6f4.css",
+    "main.js": "/kiss-principle/static/js/main.faf6fa6c.js",
     "static/js/787.7932f399.chunk.js": "/kiss-principle/static/js/787.7932f399.chunk.js",
     "index.html": "/kiss-principle/index.html",
-    "main.9cce0c7f.css.map": "/kiss-principle/static/css/main.9cce0c7f.css.map",
-    "main.2e34c076.js.map": "/kiss-principle/static/js/main.2e34c076.js.map",
+    "main.e52ac6f4.css.map": "/kiss-principle/static/css/main.e52ac6f4.css.map",
+    "main.faf6fa6c.js.map": "/kiss-principle/static/js/main.faf6fa6c.js.map",
     "787.7932f399.chunk.js.map": "/kiss-principle/static/js/787.7932f399.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cce0c7f.css",
-    "static/js/main.2e34c076.js"
+    "static/css/main.e52ac6f4.css",
+    "static/js/main.faf6fa6c.js"
   ]
 }
