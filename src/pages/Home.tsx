@@ -7,7 +7,7 @@ import Loader from "../components/Loader";
 
 const Home = () => {
     // states
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
     const [homeInfo, setHomeInfo] = useState<any>(null);
 
     // effects

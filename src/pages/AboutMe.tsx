@@ -7,13 +7,12 @@ import Loader from "../components/Loader";
 
 const AboutMe = () => {
     // states
-    const [loading, setLoading] = useState<boolean>(false);
+    const [loading, setLoading] = useState<boolean>(true);
     const [dataAboutMe, setDataAboutMe] = useState<any>(null);
 
     // effects
     useEffect(() => {
         try {
-            setLoading(true)
             const db = getDatabase(app);
             const dbRef = ref(db, '/pages');
             onValue(dbRef, (snapshot) => {
